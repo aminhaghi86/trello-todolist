@@ -15,11 +15,13 @@ button.addEventListener("click", () => {
         input.value = "";
     } else {
         input.value = input.value;
+        
         setTimeout(() => {
             input.style.transition = "all .67s";
             input.style.background = "#bf211e";
             input.style.fontSize = "20px";
         }, 50);
+        confirm('you have it! please add another one')
         setTimeout(() => {
             input.style.background = "white";
             input.style.fontSize = "20px";
